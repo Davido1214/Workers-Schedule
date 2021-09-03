@@ -49,7 +49,14 @@ if(dayTime >= 9 && dayTime < 10) {
     })
     document.getElementById("description").classList.add("present")
     for(i=0;i<10;i++){
-        document.getElementById(descId[i]).classList.add("future")
+        document.getElementById("description2").classList.add("future")
+        document.getElementById("description3").classList.add("future")
+        document.getElementById("description4").classList.add("future")
+        document.getElementById("description5").classList.add("future")
+        document.getElementById("description6").classList.add("future")
+        document.getElementById("description7").classList.add("future")
+        document.getElementById("description8").classList.add("future")
+        document.getElementById("description9").classList.add("future") 
     }
     
     
@@ -60,7 +67,13 @@ else if (dayTime >= 10 && dayTime < 11) {
     })
     document.getElementById("description2").classList.add("present")
     for(i=1;i<10;i++){
-        document.getElementById(descId[i]).classList.add("future")
+        document.getElementById("description3").classList.add("future")
+        document.getElementById("description4").classList.add("future")
+        document.getElementById("description5").classList.add("future")
+        document.getElementById("description6").classList.add("future")
+        document.getElementById("description7").classList.add("future")
+        document.getElementById("description8").classList.add("future")
+        document.getElementById("description9").classList.add("future") 
     }
 }
 else if (dayTime >= 11 && dayTime < 12) {
@@ -69,7 +82,12 @@ else if (dayTime >= 11 && dayTime < 12) {
     })
     document.getElementById("description3").classList.add("present")
     for(i=2;i<10;i++){
-        document.getElementById(descId[i]).classList.add("future")
+        document.getElementById("description4").classList.add("future")
+        document.getElementById("description5").classList.add("future")
+        document.getElementById("description6").classList.add("future")
+        document.getElementById("description7").classList.add("future")
+        document.getElementById("description8").classList.add("future")
+        document.getElementById("description9").classList.add("future")  
     }
 }
 else if (dayTime >= 12 && dayTime < 13) {
@@ -78,7 +96,12 @@ else if (dayTime >= 12 && dayTime < 13) {
     })
     document.getElementById("description4").classList.add("present")
     for(i=3;i<10;i++){
-        document.getElementById(descId[i]).classList.add("future")
+        document.getElementById("description5").classList.add("future")
+        document.getElementById("description6").classList.add("future")
+        document.getElementById("description7").classList.add("future")
+        document.getElementById("description8").classList.add("future")
+        document.getElementById("description9").classList.add("future")  
+
     }
 }
 else if (dayTime >= 13 && dayTime < 14) {
@@ -87,8 +110,11 @@ else if (dayTime >= 13 && dayTime < 14) {
     })
     document.getElementById("description5").classList.add("present")
     for(i=4;i<10;i++){
-        document.getElementById(descId[i]).classList.add("future")
-    }
+        document.getElementById("description6").classList.add("future")
+        document.getElementById("description7").classList.add("future")
+        document.getElementById("description8").classList.add("future")
+        document.getElementById("description9").classList.add("future")  
+      }
 }
 else if (dayTime >= 14 && dayTime < 15) {
     document.getElementsByName("1").forEach((element,index)=>{
@@ -96,16 +122,21 @@ else if (dayTime >= 14 && dayTime < 15) {
     })
     document.getElementById("description6").classList.add("present")
     for(i=5;i<10;i++){
-        document.getElementById(descId[i]).classList.add("future")
-    }
+        document.getElementById("description7").classList.add("future")
+        document.getElementById("description8").classList.add("future")
+        document.getElementById("description9").classList.add("future")
+        }
 }
 else if (dayTime >= 15 && dayTime < 16) {
     document.getElementsByName("1").forEach((element,index)=>{
         element.classList.add("past")
     })
     document.getElementById("description7").classList.add("present")
+
     for(i=6;i<10;i++){
-        document.getElementById(descId[i]).classList.add("future")
+        document.getElementById("description8").classList.add("future")
+        document.getElementById("description9").classList.add("future")
+
     }
 }
 else if (dayTime >= 16 && dayTime < 17) {
@@ -114,7 +145,7 @@ else if (dayTime >= 16 && dayTime < 17) {
     })
     document.getElementById("description8").classList.add("present")
     for(i=7;i<10;i++){
-        document.getElementById(descId[i]).classList.add("future")
+        document.getElementById("description9").classList.add("future")
     }
 }
 else if (dayTime >= 17 && dayTime < 18) {
